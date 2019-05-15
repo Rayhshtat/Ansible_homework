@@ -1,0 +1,9 @@
+---
+- name: install vim and zip
+  apt:
+    name: "{{ packages }}"
+    state: present
+  vars:
+    packages:
+    - vim
+    - zip

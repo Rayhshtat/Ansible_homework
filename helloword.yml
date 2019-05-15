@@ -1,0 +1,7 @@
+---
+- name    : HelloWord
+  hosts   : all
+  become  : yes
+
+  roles:
+    - HelloWord

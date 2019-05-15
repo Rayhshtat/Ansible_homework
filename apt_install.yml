@@ -1,0 +1,7 @@
+---
+- name    : apt_install
+  hosts   : all
+  become  : yes
+
+  roles:
+    - apt_install
